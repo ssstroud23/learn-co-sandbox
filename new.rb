@@ -1,0 +1,11 @@
+FOUR_LETTER_COUNTRIES = ["Chad","Cuba","Greenland","Iraq","Mali","Oman","India"]
+  FOUR_LETTER_COUNTRIES << "Fiji"
+  FOUR_LETTER_COUNTRIES.insert(4,"Iran")
+  FOUR_LETTER_COUNTRIES.delete("India")
+  FOUR_LETTER_COUNTRIES.reverse!
+  FOUR_LETTER_COUNTRIES.delete("Greenland")
+  FOUR_LETTER_COUNTRIES[5] = "Togo"
+  FOUR_LETTER_COUNTRIES << "Laos"
+  FOUR_LETTER_COUNTRIES.reverse!
+  FOUR_LETTER_COUNTRIES.insert(0, "Peru")
+  puts FOUR_LETTER_COUNTRIES
